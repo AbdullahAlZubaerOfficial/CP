@@ -1,0 +1,1 @@
+{"name":"Local: extraPractice-2","url":"f:\\phitron\\Module-13(nestedloopAndPattern)\\extraPractice-2.c","tests":[{"id":1746297527275,"input":"5","output":"*****\n ****\n  ***\n   **\n    *"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\Module-13(nestedloopAndPattern)\\extraPractice-2.c","group":"local","local":true}

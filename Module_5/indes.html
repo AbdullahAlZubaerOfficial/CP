@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Compare Numbers</title>
+</head>
+<body>
+  <h1>Compare Two Numbers</h1>
+  <button onclick="compareNumbers()">Check</button>
+
+  <p id="result"></p>
+
+  <script>
+    function compareNumbers() {
+      let a = parseInt(prompt("Enter a:"));
+      let b = parseInt(prompt("Enter b:"));
+
+      if (a >= b) {
+        document.getElementById("result").innerText = "Yes";
+      } else {
+        document.getElementById("result").innerText = "No";
+      }
+    }
+  </script>
+</body>
+</html>

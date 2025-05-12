@@ -1,0 +1,1 @@
+{"name":"Local: stringCount","url":"f:\\phitron\\array\\stringCount.c","tests":[{"id":1745903584520,"input":"359","output":"17"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\array\\stringCount.c","group":"local","local":true}

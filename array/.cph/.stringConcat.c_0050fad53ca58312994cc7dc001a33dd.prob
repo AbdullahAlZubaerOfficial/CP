@@ -1,0 +1,1 @@
+{"name":"Local: stringConcat","url":"f:\\phitron\\array\\stringConcat.c","tests":[{"id":1746086371799,"input":"abcd jklm","output":"abcdjklm jklm"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\array\\stringConcat.c","group":"local","local":true}

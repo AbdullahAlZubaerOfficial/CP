@@ -1,0 +1,1 @@
+{"name":"Local: 13-1","url":"f:\\phitron\\Module-13(nestedloopAndPattern)\\13-1.c","tests":[{"id":1746294136204,"input":"5","output":"*\n**\n***\n****\n*****"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\Module-13(nestedloopAndPattern)\\13-1.c","group":"local","local":true}
