@@ -21,3 +21,9 @@ int main() {
 
     return 0;
 }
+
+// Input: abba
+// Output: YES
+
+// Input: icpcassiut
+// Output: NO

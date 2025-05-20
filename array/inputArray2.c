@@ -13,3 +13,9 @@ int main() {
    
     return 0;
 }
+
+/*
+Input: 10 20 30 40 50
+Output: 10 20 30 40 50
+
+*/

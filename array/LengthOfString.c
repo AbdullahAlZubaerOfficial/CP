@@ -18,3 +18,6 @@ int main() {
    
     return 0;
 }
+
+// Input : Abdullah
+// Output: 8

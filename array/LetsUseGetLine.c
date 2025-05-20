@@ -14,3 +14,6 @@ int main() {
    
     return 0;
 }
+
+// Input: abdullah \al zubaer
+// Output: abdullah

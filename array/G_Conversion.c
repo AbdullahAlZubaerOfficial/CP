@@ -23,3 +23,13 @@ int main() {
    
     return 0;
 }
+
+/*
+Input:
+happy,NewYear,enjoy
+
+Output: 
+HAPPY nEWyEAR ENJOY
+
+
+*/

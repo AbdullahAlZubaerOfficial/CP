@@ -8,3 +8,6 @@ int main() {
    
     return 0;
 }
+
+// Input: 5 6 8 9 7
+// Output: 5 6 8 9 7

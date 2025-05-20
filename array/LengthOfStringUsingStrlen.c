@@ -6,9 +6,12 @@ int main() {
    char s[101];
    scanf("%d",s);
 
-   int sz = strlen(s);
+   int length = strlen(s);
 
-   printf("%d",sz);
+   printf("%d",length);
    
     return 0;
 }
+
+// Input: abdullah
+// Output: 8

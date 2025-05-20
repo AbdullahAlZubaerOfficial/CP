@@ -27,3 +27,15 @@ int main() {
    
     return 0;
 }
+
+/*
+Input: 
+abcd
+ef
+
+Output:
+4 2
+abcdef
+ebcd af
+
+*/

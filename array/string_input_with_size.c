@@ -10,3 +10,6 @@ fgets(s,50,stdin);   // fgets last e enter ta input hisebe nie nei
    
     return 0;
 }
+
+// Input: Abdullah Al Zubaer
+// Output: Abdullah Al Zubaer

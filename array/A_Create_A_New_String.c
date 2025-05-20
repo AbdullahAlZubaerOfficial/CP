@@ -16,3 +16,16 @@ int main() {
    
     return 0;
 }
+
+/* 
+Input:
+LEVEL
+ONE
+
+
+Output:
+5 3
+LEVEL ONE
+
+
+*/ 

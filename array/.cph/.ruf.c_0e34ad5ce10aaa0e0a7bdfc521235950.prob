@@ -1,1 +1,1 @@
-{"name":"Local: ruf","url":"f:\\phitron\\array\\ruf.c","tests":[{"id":1746090056696,"input":"10\n1 2 0 2 0 3 1 2 5 0\n","output":"0 -> 3\n1 -> 2\n2 -> 3\n3 -> 1\n4 -> 0\n5 -> 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\array\\ruf.c","group":"local","local":true}
+{"name":"Local: ruf","url":"f:\\phitron\\array\\ruf.c","tests":[{"id":1746090056696,"input":"abcd\nef","output":"4 2\nabcdef\nebcd af"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\array\\ruf.c","group":"local","local":true}

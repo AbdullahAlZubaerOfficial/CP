@@ -20,3 +20,21 @@ int main() {
     
     return 0;
 }
+
+
+/*
+Input:
+4
+word
+localization
+internationalization
+pneumonoultramicroscopicsilicovolcanoconiosis
+
+Output: 
+word
+l10n
+i18n
+p43s
+
+
+*/
