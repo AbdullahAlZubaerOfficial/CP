@@ -38,6 +38,53 @@ int main() {
 
 /*
 
+
+#include <stdio.h>
+
+int main() { 
+   
+       int r,c;
+       scanf("%d %d",&r,&c);
+   
+       int ar[r][c];
+   
+       for(int i=0; i<r; i++){
+           for(int j=0; j<c; j++){
+               scanf("%d",&ar[i][j]);
+           }
+       }
+   
+       int sum =0;
+
+       for(int i=0; i<r; i++){
+        for(int j=0; j<c; j++){
+            // printf("%d ",ar[i][j]);
+
+            sum = sum+ ar[i][j];
+        }
+        // printf("\n");
+       }
+
+    //    printf("%d",sum);
+
+    if(sum==0){
+        printf("This is a zero matrix");
+    }else{
+        printf("This is not a zero matrix");
+    }
+
+
+   
+    return 0;
+}
+
+
+
+
+*/
+
+/*
+
 Input: 
 2 3
 0 0 0

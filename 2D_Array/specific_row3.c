@@ -16,7 +16,7 @@ int main() {
      int specific_row;
      scanf("%d",&specific_row);
 
-     for(int i=0; i<c; i++){
+     for(int i=0; i<r; i++){
         printf("%d ",ar[specific_row][i]);
      }
 

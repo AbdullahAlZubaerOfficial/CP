@@ -1,18 +1,17 @@
 
 #include <stdio.h>
 
-void EvenIndices(int ar[], int n, int i){
+void EvenIndices( int n, int ar[],  int i){
 
     if(i>=n){
         return;
     }
 
     
-    EvenIndices(ar,n,i+1);
+    EvenIndices(n,ar,i+1);
 
     if(i%2==0){
-        printf("%d ",ar[i]);
-
+        printf("%d ",ar[i]);  // 0 index e 1 , 2 index e 2
     }
 
 }
@@ -27,7 +26,7 @@ int main() {
         scanf("%d",&ar[i]);
     }
 
-    EvenIndices(ar,n,0);
+    EvenIndices(n,ar,0);
    
     return 0;
 }

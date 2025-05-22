@@ -1,23 +1,75 @@
+#include "stdio.h"
+#include <limits.h>
 
-#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d", &n);
 
-int main() { 
-   char s1[101],s2[101];
-   
-   gets(s1);
-   gets(s2);
+    int arA[n];
 
-   int length1 = strlen(s1);
-   int length2 = strlen(s2);
+    for (int i = 0; i < n; i++)
+    {
 
-   printf("%d %d\n",length1,length2);
-   printf("%s%s\n",s1,s2);
+        scanf("%d", &arA[i]);
+    }
 
-    int temp = s1[0];
-    s1[0] = s2[0];
-    s2[0] = temp;
-    
-    printf("%s %s",s1,s2);
-   
+    int maxA = INT_MIN;
+
+    for (int i = 0; i < n; i++)
+    {
+        if (arA[i] > maxA)
+        {
+            maxA = arA[i];
+        }
+    }
+
+    int arB[n];
+
+    for (int i = 0; i < n; i++)
+    {
+
+        scanf("%d", &arB[i]);
+    }
+
+    int maxB = INT_MIN;
+
+    for (int i = 0; i < n; i++)
+    {
+        if (arB[i] > maxB)
+        {
+            maxB = arB[i];
+        }
+    }
+
+    int size = (maxA > maxB ? maxA : maxB) + 1;
+
+    int freqA[size];
+    int freqB[size];
+
+    for (int i = 0; i < size; i++)
+    {
+        freqA[i] = 0;
+        freqB[i] = 0;
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        freqA[arA[i]]++;
+        freqB[arB[i]]++;
+    }
+
+    for (int i = 0; i < size; i++)
+    {
+        printf("%d ",freqA[i]);
+        // if (freqA[i] != freqB[i])
+        // {
+        //     printf("no");
+        //     return 0;
+        // }
+    }
+
+    // printf("yes");
+
     return 0;
 }

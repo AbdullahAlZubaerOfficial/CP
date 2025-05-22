@@ -12,6 +12,7 @@ int main() {
 
    for(int i=0; i<=length_b; i++){
     a[i+length_a] = b[i];
+    
    }
    printf("%s %s",a,b);
    
@@ -30,3 +31,10 @@ int main() {
    
 //     return 0;
 // }
+
+
+/*
+Input: abcd jklm
+Output: abcdjklm jklm
+
+*/

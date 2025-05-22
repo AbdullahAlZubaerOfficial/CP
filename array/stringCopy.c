@@ -14,3 +14,13 @@ int main() {
    
     return 0;
 }
+
+/*
+Input: 
+abcd
+jklm
+
+Output: 
+jklm jklm
+
+*/
