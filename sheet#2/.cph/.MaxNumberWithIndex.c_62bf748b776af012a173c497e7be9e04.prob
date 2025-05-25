@@ -1,0 +1,1 @@
+{"name":"Local: MaxNumberWithIndex","url":"f:\\phitron\\sheet#2\\MaxNumberWithIndex.c","tests":[{"id":1748180128076,"input":"5\n1 8 5 7 5","output":"8 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\sheet#2\\MaxNumberWithIndex.c","group":"local","local":true}
