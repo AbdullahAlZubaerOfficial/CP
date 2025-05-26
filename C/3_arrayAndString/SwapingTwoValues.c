@@ -1,15 +1,25 @@
 
 #include <stdio.h>
 
-int main() { 
-   int a = 10;
-   int b = 20;
-   
-   int tmp = a;
-   a = b;
-   b = tmp;
+int main()
+{
+    int a = 10;
+    int b = 20;
 
-   printf("a = %d\nb = %d",a,b);
-   
+    int tmp = a;
+    a = b;
+    b = tmp;
+
+    printf("a = %d\nb = %d", a, b);
+
     return 0;
 }
+
+/*
+
+Output:
+a = 20
+b = 10
+
+
+*/

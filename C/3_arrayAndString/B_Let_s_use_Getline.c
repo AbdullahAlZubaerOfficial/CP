@@ -1,11 +1,14 @@
 #include <stdio.h>
 
-int main() { 
+int main()
+{
     char s[100001];
     fgets(s, 100000, stdin);
 
-    for (int i = 0; s[i] != '\0'; i++) {
-        if (s[i] == '\\' ) {
+    for (int i = 0; s[i] != '\0'; i++)
+    {
+        if (s[i] == '\\')
+        {
             break;
         }
         printf("%c", s[i]);
@@ -13,3 +16,11 @@ int main() {
 
     return 0;
 }
+
+/*
+Input: This is a test\Ignore this part
+
+Output: This is a test
+
+
+*/

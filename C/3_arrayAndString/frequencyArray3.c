@@ -1,46 +1,44 @@
 
 #include <stdio.h>
 
-int main() { 
-   int n; 
-   scanf("%d",&n);
-   
-   int ar[n];
+int main()
+{
+    int n;
+    scanf("%d", &n);
 
-   for(int i=0; i<n; i++){
-    scanf("%d",&ar[i]);
-   }
+    int ar[n];
 
-   int fre[6] = {0};
-   
-   for(int i=0; i<n;i++){
-    // int val = ar[i];
-    // fre[val]++;
-    
-    fre[ar[i]]++;
-    
-   }
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &ar[i]);
+    }
 
-   for(int i=0; i<6; i++){
-    
-    printf("%d -> %d\n",i,fre[i]);
-   
+    int fre[6] = {0};
 
-   }
+    for (int i = 0; i < n; i++)
+    {
+        // int val = ar[i];
+        // fre[val]++;
 
-   
+        fre[ar[i]]++;
+    }
 
-   
+    for (int i = 0; i < 6; i++)
+    {
+
+        printf("%d -> %d\n", i, fre[i]);
+    }
+
     return 0;
 }
 
 /*
 
-Input: 
+Input:
 10
 1 2 0 2 0 3 1 2 5 0
 
-Output: 
+Output:
 0 -> 3
 1 -> 2
 2 -> 3

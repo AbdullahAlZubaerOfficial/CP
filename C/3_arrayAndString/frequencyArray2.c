@@ -1,57 +1,65 @@
 
 #include <stdio.h>
 
-int main() { 
-   int n; 
-   scanf("%d",&n);
-   
-   int ar[n];
+int main()
+{
+    int n;
+    scanf("%d", &n);
 
-   for(int i=0; i<n; i++){
-    scanf("%d",&ar[i]);
-   }
+    int ar[n];
 
-   int fre[6] = {0};
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &ar[i]);
+    }
 
-   for(int i=0; i<n;i++){
-    if(ar[i]==0){
-        fre[0]++;
-    }
-    else if(ar[i]==1){
-        fre[1]++;
-    }
-    else if(ar[i]==2){
-        fre[2]++;
-    }
-    else if(ar[i]==3){
-        fre[3]++;
-    }
-    else if(ar[i]==4){
-        fre[4]++;
-    }
-    else if(ar[i]==5){
-        fre[5]++;
-    }
-   }
+    int fre[6] = {0};
 
-   printf("%d -> %d\n",0,fre[0]);
-   printf("%d -> %d\n",1,fre[1]);
-   printf("%d -> %d\n",2,fre[2]);
-   printf("%d -> %d\n",3,fre[3]);
-   printf("%d -> %d\n",4,fre[4]);
-   printf("%d -> %d\n",5,fre[5]);
+    for (int i = 0; i < n; i++)
+    {
+        if (ar[i] == 0)
+        {
+            fre[0]++;
+        }
+        else if (ar[i] == 1)
+        {
+            fre[1]++;
+        }
+        else if (ar[i] == 2)
+        {
+            fre[2]++;
+        }
+        else if (ar[i] == 3)
+        {
+            fre[3]++;
+        }
+        else if (ar[i] == 4)
+        {
+            fre[4]++;
+        }
+        else if (ar[i] == 5)
+        {
+            fre[5]++;
+        }
+    }
 
-   
+    printf("%d -> %d\n", 0, fre[0]);
+    printf("%d -> %d\n", 1, fre[1]);
+    printf("%d -> %d\n", 2, fre[2]);
+    printf("%d -> %d\n", 3, fre[3]);
+    printf("%d -> %d\n", 4, fre[4]);
+    printf("%d -> %d\n", 5, fre[5]);
+
     return 0;
 }
 
 /*
 
-Input: 
+Input:
 10
 1 2 0 2 0 3 1 2 5 0
 
-Output: 
+Output:
 0 -> 3
 1 -> 2
 2 -> 3

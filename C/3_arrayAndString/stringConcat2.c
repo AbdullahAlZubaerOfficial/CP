@@ -1,15 +1,27 @@
 
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
 
-int main() { 
-   char a[101],b[101];
-   
-   scanf("%s %s",&a,&b);
+int main()
+{
+    char a[101], b[101];
 
-   strcat(a,b);
+    scanf("%s %s", &a, &b);
 
-   printf("%s %s",a,b);
-   
+    strcat(a, b);
+
+    printf("%s %s", a, b);
+
     return 0;
 }
+
+/*
+
+Input:
+hello world
+
+
+Output:  helloworld world
+
+
+*/

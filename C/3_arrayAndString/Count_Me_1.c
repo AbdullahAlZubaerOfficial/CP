@@ -1,33 +1,49 @@
 
 #include <stdio.h>
 
-int main() { 
-   long long n;
-   scanf("%lld",&n);
-   
-   long long ar[n];
+int main()
+{
+    long long n;
+    scanf("%lld", &n);
 
-   for(int i=0; i<n;i++){
-    scanf("%lld",&ar[i]);
-   }
+    long long ar[n];
 
-   long long divided2 = 0,divided3 =0;
-
-   for(int i=0; i<n; i++){
-    if(ar[i]%2==0){
-        divided2++;
-    }
-    else if(ar[i]%3==0){
-        divided3++;
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%lld", &ar[i]);
     }
 
-    else if(ar[i]%2==0 && ar[i]%3==0){
-        printf("2");
+    long long divided2 = 0, divided3 = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        if (ar[i] % 2 == 0)
+        {
+            divided2++;
+        }
+        else if (ar[i] % 3 == 0)
+        {
+            divided3++;
+        }
+
+        else if (ar[i] % 2 == 0 && ar[i] % 3 == 0)
+        {
+            printf("2");
+        }
     }
 
-   }
+    printf("%lld %lld", divided2, divided3);
 
-   printf("%lld %lld",divided2,divided3);
-   
     return 0;
 }
+
+/*
+Input:
+6
+2 3 6 9 12 7
+
+Output: 3 2
+
+
+
+*/

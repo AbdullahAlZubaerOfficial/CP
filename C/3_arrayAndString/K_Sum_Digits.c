@@ -1,25 +1,33 @@
 
 #include <stdio.h>
 
-int main() { 
-   int n;
-   scanf("%d",&n);
+int main()
+{
+    int n;
+    scanf("%d", &n);
 
+    int sum = 0;
 
-   int sum=0;
+    char digit;
 
-   char digit;
+    for (int i = 0; i < n; i++)
+    {
+        scanf(" %c", &digit);
 
-   for(int i=0; i<n; i++){
-    scanf(" %c",&digit);
+        sum = sum + digit - '0';
+    }
 
-    sum = sum + digit -'0';
-   
-   }
+    printf("%d", sum);
 
-   printf("%d",sum);
-
-
-   
     return 0;
 }
+
+/*
+Input:
+5
+12345
+
+
+Output: 15
+
+*/

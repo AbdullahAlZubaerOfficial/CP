@@ -1,28 +1,28 @@
 
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
 
-int main() { 
-     
+int main()
+{
+
     char s[1000001];
-    scanf("%s",s);
+    scanf("%s", s);
 
     int length = strlen(s);
 
     int sum = 0;
 
-    for(int i = 0; i<length; i++){
+    for (int i = 0; i < length; i++)
+    {
 
         // printf("%c",s[i]);
-        sum+=s[i]-48;
+        sum += s[i] - 48;
         // or
         // sum += s[i] - '0';
     }
 
-    printf("%d",sum);
+    printf("%d", sum);
 
-
-   
     return 0;
 }
 
