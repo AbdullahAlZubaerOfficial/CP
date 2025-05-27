@@ -25,3 +25,23 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+Abdullah Zubaer  
+Mehedi Zubaer
+  
+
+Output: ARE Brothers
+
+
+
+Input: 
+Abdullah Zubaer  
+Mehedi Hasan
+
+Output: NOT
+
+*/
+

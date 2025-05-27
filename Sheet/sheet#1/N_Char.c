@@ -22,3 +22,19 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+AbCdE
+  
+
+Output:  aBcDe
+
+Input: HeLLo2024!
+
+Output: hEllO
+
+
+*/
+

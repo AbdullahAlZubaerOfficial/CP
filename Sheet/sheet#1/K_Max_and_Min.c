@@ -27,3 +27,15 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+3 7 1
+  
+
+Output: 1 7
+
+
+*/
+

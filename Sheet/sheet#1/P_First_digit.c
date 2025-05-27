@@ -16,3 +16,16 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+4567  
+
+Output: EVEN
+
+Input: 7123
+Output: ODD
+
+*/
+

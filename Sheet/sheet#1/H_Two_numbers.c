@@ -21,3 +21,18 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+5 2
+  
+
+Output: 
+floor 5 / 2 = 2
+ceil 5 / 2 = 3
+round 5 / 2 = 2
+
+
+*/
+

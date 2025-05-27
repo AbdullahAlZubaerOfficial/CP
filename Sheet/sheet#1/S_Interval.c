@@ -23,3 +23,36 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: ekta float number n
+
+Output:
+
+Interval [0,25] → jokhon 0 ≤ n ≤ 25
+
+Interval (25,50] → jokhon 25 < n ≤ 50
+
+Interval (50,75] → jokhon 50 < n ≤ 75
+
+Interval (75,100] → jokhon 75 < n ≤ 100
+
+Out of Intervals → otherwise
+
+
+
+
+Input: 50
+Output: Interval (25,50]
+
+Input: -3
+Output: Out of Intervals
+
+
+Input: 75.1
+Output: Interval (75,100]
+
+
+*/
+

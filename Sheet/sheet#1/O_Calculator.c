@@ -20,3 +20,16 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+5+3  
+
+Output: 8
+
+Input: 10 - 4
+Output: 6
+
+*/
+

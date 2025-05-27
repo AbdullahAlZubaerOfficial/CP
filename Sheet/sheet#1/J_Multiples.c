@@ -15,3 +15,15 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+6 3
+  
+
+Output: Multiples
+
+
+*/
+

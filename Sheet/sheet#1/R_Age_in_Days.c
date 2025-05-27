@@ -25,3 +25,16 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+400  
+
+Output: 
+1 years
+1 months
+5 days
+
+*/
+

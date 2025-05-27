@@ -14,3 +14,15 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+10 5
+  
+
+Output: Yes
+
+
+*/
+

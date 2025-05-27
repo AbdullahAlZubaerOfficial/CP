@@ -21,3 +21,18 @@ int main() {
    
     return 0;
 }
+
+
+/*
+
+ a = 2^10 = 1024  
+ b = 2^3 = 8
+
+ (a>b) ? yes : no
+
+
+Input: 2 10 2 3
+Output: yes
+
+
+*/

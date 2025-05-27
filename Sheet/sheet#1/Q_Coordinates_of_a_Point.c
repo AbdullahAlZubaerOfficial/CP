@@ -32,3 +32,35 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+10.0 5.0  
+
+Output: Q1
+
+
+
+ Explanation:
+
+Ei code ta ekta 2D Cartesian coordinate input ney: (a, b)
+
+Tarpor sei point ta kon quadrant e ache ta check kore:
+
+Q1: a > 0 && b > 0 ➡️ Right-Top
+
+Q2: a < 0 && b > 0 ➡️ Left-Top
+
+Q3: a < 0 && b < 0 ➡️ Left-Bottom
+
+Q4: a > 0 && b < 0 ➡️ Right-Bottom
+
+(0, 0) hole: Origem
+
+X-axis e hole: Eixo X
+
+Y-axis e hole: Eixo Y
+
+*/
+

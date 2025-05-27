@@ -14,3 +14,16 @@ int main() {
    
     return 0;
 }
+
+
+/*
+
+Input: 
+12345 67890
+
+
+Output: 5
+
+
+*/
+

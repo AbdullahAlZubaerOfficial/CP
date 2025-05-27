@@ -25,3 +25,26 @@ int main() {
    
     return 0;
 }
+
+/*
+
+Input: 
+A
+  
+Output: 
+ALPHA  
+IS CAPITAL
+
+
+Input: a
+
+Output: 
+ALPHA  
+IS SMALL
+
+Input: 9 
+Output: IS DIGIT
+
+
+*/
+

@@ -36,6 +36,15 @@ int main() {
     }
 
   
-   
     return 0;
 }
+
+/*
+
+Input: 3 + 4 = 7
+Output: Yes ✅
+
+Input: 5 * 2 = 11
+Output: 10 ❌
+
+*/
