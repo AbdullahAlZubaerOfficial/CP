@@ -12,15 +12,16 @@ class Student
 
     Student(int roll,int cls, double gpa){          // constructor
         
-        this->roll = roll;    
-        (*this).cls = cls;
-        (*this).gpa = gpa;
+        this->roll = roll;  
+        (*this).cls = cls;  
+        (*this).gpa = gpa;  
 
     }
 
 };
 
 Student* fun(){
+
      Student* karim = new Student(2,5,5.00);
      
      return karim;
