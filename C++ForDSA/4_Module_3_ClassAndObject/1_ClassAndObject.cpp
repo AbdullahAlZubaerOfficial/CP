@@ -23,7 +23,6 @@ int main(){
 
     cout << a.name << " " << a.roll << " " << a.gpa << endl;  // temp,strcpy use kore ekhon a ke joto kushu access nite parbo.......
 
-
     return 0;
 }
 
