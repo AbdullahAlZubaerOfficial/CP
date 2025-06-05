@@ -12,7 +12,9 @@ int main() {
     printf("You entered: %d\n", number); // ইনপুটকৃত সংখ্যা প্রিন্ট করছি
 
     return 0; // প্রোগ্রাম সফলভাবে শেষ
+    
 }
+
 
 /*
 Expected Input:
