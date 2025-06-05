@@ -1,0 +1,1 @@
+{"name":"Local: string_input","url":"f:\\phitron\\array\\string_input.c","tests":[{"id":1745900114178,"input":"zubaer","output":"zubaer"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\array\\string_input.c","group":"local","local":true}

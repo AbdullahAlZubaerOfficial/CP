@@ -1,0 +1,1 @@
+{"name":"Local: LetsUseGetLine","url":"f:\\phitron\\array\\LetsUseGetLine.c","tests":[{"id":1745901909007,"input":"abdullah \\al zubaer","output":"abdullah "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\array\\LetsUseGetLine.c","group":"local","local":true}

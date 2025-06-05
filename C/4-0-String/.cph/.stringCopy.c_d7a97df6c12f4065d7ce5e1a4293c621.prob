@@ -1,0 +1,1 @@
+{"name":"Local: stringCopy","url":"f:\\phitron\\array\\stringCopy.c","tests":[{"id":1746083603008,"input":"abcd\njklm","output":"jklm jklm"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\array\\stringCopy.c","group":"local","local":true}

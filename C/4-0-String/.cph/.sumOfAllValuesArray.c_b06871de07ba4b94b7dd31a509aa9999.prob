@@ -1,0 +1,1 @@
+{"name":"Local: sumOfAllValuesArray","url":"f:\\phitron\\array\\sumOfAllValuesArray.c","tests":[{"id":1746106584138,"input":"5\n10 20 30 40 50","output":"150"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\array\\sumOfAllValuesArray.c","group":"local","local":true}
