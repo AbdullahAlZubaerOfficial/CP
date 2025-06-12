@@ -7,12 +7,14 @@ class Student
     int roll;
     int cls;
     double gpa;
+    string name; 
 
 
-    Student(int r,int c, double g){          // constructor
+    Student(int r,int c, double g,string n){          // constructor
         roll = r;
         cls = c;
         gpa = g;
+        name = n;
     }
 
 
@@ -20,8 +22,8 @@ class Student
 
 int main(){
 
-    Student rahim(45,5,3.70);
-    Student karim(2,5,5.00);
+    Student rahim(45,5,3.70,"zubaer");
+    Student karim(2,5,5.00,"jotirmoya");
 
 
 /*
@@ -41,8 +43,8 @@ int main(){
 
 */
 
-     cout << rahim.roll << " " << rahim.cls << " " << rahim.gpa << endl;
-     cout << karim.roll << " " << karim.cls << " " << karim.gpa << endl;
+     cout << rahim.roll << " " << rahim.cls << " " << rahim.gpa << " " << rahim.name <<  endl;
+     cout << karim.roll << " " << karim.cls << " " << karim.gpa << " " << karim.name <<  endl;
     
 
     return 0;
@@ -51,7 +53,7 @@ int main(){
 /*
 
 Output: 
-45 5 3.70
-2 5 5
+45 5 3.7 zubaer
+2 5 5 jotirmoya
 
 */

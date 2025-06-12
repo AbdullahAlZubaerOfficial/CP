@@ -1,0 +1,1 @@
+{"name":"Local: E_PrintAllDivisors","url":"f:\\phitron\\MathBasicForProgramming\\E_PrintAllDivisors.c","tests":[{"id":1749392978292,"input":"36","output":"1 2 3 4 6 9 12 18 36 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\MathBasicForProgramming\\E_PrintAllDivisors.c","group":"local","local":true}

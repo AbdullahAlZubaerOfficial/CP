@@ -29,6 +29,6 @@ int main(){
 
 /*
 
-Output: a 10 4.5
+Output: Sakib 10 4.5
 
 */

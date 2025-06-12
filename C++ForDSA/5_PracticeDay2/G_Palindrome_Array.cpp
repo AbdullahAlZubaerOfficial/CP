@@ -35,3 +35,20 @@ int main(){
 
     return 0;
 }
+
+/*
+
+Input: 
+5
+1 3 2 3 1
+
+Output: YES
+
+
+Input: 
+4
+1 2 3 4 
+ 
+Output: NO
+
+*/

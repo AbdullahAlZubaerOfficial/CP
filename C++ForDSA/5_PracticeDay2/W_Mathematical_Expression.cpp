@@ -38,3 +38,18 @@ int main(){
 
     return 0;
 }
+
+/*
+
+
+Input: 5 + 10 = 15
+Output: YES
+
+Input 3 - 1 = 2
+Output: YES
+
+Input: 2*10 = 19
+Output: 20
+
+
+*/
