@@ -3,31 +3,54 @@ using namespace std;
 
 int main(){
     
-   int n;
+  long long int n;
    cin >> n;
-
-   vector <int> divisors;
    
+   vector <int> divisors;
+
    for(int i=1; i<=sqrt(n); i++){
     if(n%i==0){
         // cout << i << " ";
         divisors.push_back(i);
-
         if((n/i)!=i){
             // cout << n/i << " ";
             divisors.push_back(n/i);
         }
     }
-
    }
 
-
-   sort(divisors.begin(),divisors.end());
+   long long int count = 0;
 
    for(int d : divisors){
-    cout << d << " ";
+    // cout << d << " ";
+     count++;
+   }
+
+   if(count == 2){
+    cout << "YES";
+    return 0;
+   }else{
+    cout << "NO";
    }
     
 
     return 0;
 }
+
+// TC -> O(√n) 
+
+/*
+
+Input: 2
+Output: yes
+
+Input: 5
+Output: yes
+
+Input: 10
+Output: no
+
+Input: 13
+Output: yes
+
+*/
