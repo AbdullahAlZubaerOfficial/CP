@@ -5,7 +5,7 @@ int main()
     int n;              // n ভ্যারিয়েবল: অ্যারেতে কয়টি মান থাকবে
     scanf("%d", &n);    // ইউজার থেকে n ইনপুট নিচ্ছে
 
-    int ar[n];          // n সাইজের একটি Variable Length Array (VLA) ডিক্লেয়ার
+    int ar[n+1];          // n সাইজের একটি Variable Length Array (VLA) ডিক্লেয়ার
 
     // ইউজার থেকে nটি সংখ্যা ইনপুট নেওয়ার লুপ
     for (int i = 0; i < n; i++)
