@@ -1,32 +1,44 @@
-#include <bits/stdc++.h>
+
+#include<bits/stdc++.h>
 using namespace std;
 
-int main() {
-    int n;
-    cin >> n;
+int main(){
+    
+   int n;
+   cin >> n;
+   
+   vector<int> ar(n);
 
-    vector<int> ar(n);
-    for (int i = 0; i < n; i++) cin >> ar[i];
+   for(int i=0; i<n; i++){
+    cin >> ar[i];
+   }
 
-    int total = 0;
-    for (int i = 0; i < n; i++) {
-        total += ar[i]; // manual sum
+   int total = 0;
+
+   for(int i=0; i<n; i++){
+    total = total + ar[i];
+   }
+
+   int leftSum = 0;
+   for(int i=0; i<n; i++){
+    int rightSum = total - leftSum - ar[i];
+
+
+    if(leftSum == rightSum){
+        cout << i << endl;
+        return 0;
     }
 
-    int leftSum = 0;
+    leftSum += ar[i];
 
-    for (int i = 0; i < n; i++) {
-        int rightSum = total - leftSum - ar[i];
-        if (leftSum == rightSum) {
-            cout << i << endl;
-            return 0;
-        }
-        leftSum += ar[i];
-    }
+   }
 
-    cout << -1 << endl;
+   cout << -1 << endl;
+    
+
     return 0;
 }
+
 
 
 /*
