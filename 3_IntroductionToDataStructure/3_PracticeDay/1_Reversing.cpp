@@ -23,8 +23,8 @@ int main(){
     return 0;
 }
 
-// TC -> O(n)
-// SC -> O(n)
+// TC -> O(n)  
+// SC -> O(n)  
 
 /*
 
@@ -49,14 +49,14 @@ Print the array in a reversed order.
 Examples
 InputCopy
 4
-5 1 3 2
+5 1 3 2 
 OutputCopy
 2 3 1 5 
 InputCopy
-5
-1 2 3 4 5
-OutputCopy
-5 4 3 2 1 
+5  
+1 2 3 4 5    
+OutputCopy  
+5 4 3 2 1   
 
 
 

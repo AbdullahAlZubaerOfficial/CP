@@ -1,46 +1,48 @@
-#include <iostream>
-#include <vector>
+#include<bits/stdc++.h>
 using namespace std;
 
-int main() {
-    int n, q;
-    cin >> n >> q;
+int main(){
+  
+  int n,q;
+  cin >> n >> q;
+  
+  vector<long long>v(n+1),pre(n+1);
+  
+  for(int i =1; i<=n; i++){
 
+    cin >> v[i];
+    pre[i] = pre[i-1] + v[i];
 
-    vector<long long> a(n);
-    for (int i = 0; i < n; i++) {
-        cin >> a[i];
-    }
- 
-    // prefix sum array
-    vector<long long> prefixSum(n);
-    prefixSum[0] = a[0];
-
-    for (int i = 1; i < n; i++) {
-        prefixSum[i] = prefixSum[i - 1] + a[i];
-    }
-
-    while (q--) {
-        int l, r;
-        cin >> l >> r;
-        l--; r--;  // zero-based indexing
-
-        long long sum;
-        if (l == 0) {
-            sum = prefixSum[r];
-        } else {
-            sum = prefixSum[r] - prefixSum[l - 1];
-        }
-        cout << sum << endl;
-    }
-
-    return 0;
+  }
+  
+  
+  while(q--){
+    
+    int l,r;
+    
+    cin >> l >> r;
+    
+    cout << pre[r] - pre[l-1] << endl;  
+    
+  }
+  
+  
 }
 
-// TC -> O(n+q)
-// SC -> O(n)
 
 /*
+
+prefix sum is a technique to optimize range sum queries.
+
+say, 6 4 2 7 2 7
+er ক্রমোযোজিত গনসংখ্যা 6 10 12 19 21 28
+now if we want to fund the sum of elements from index 2 to 4 we can do it in o(1) time
+by using the prefix sum array.
+
+  prefix[i] = prefix[i-1] + arr[i]
+
+so, prefix[4] - prefix[1] = 19 - 10 = 9
+
 
 
 Y. Range sum query
@@ -104,7 +106,8 @@ OutputCopy
 7
 15
 
-  
+
+
 
 
 */

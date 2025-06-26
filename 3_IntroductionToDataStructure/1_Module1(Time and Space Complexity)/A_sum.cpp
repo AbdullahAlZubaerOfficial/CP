@@ -23,3 +23,16 @@ sum = (n*(n+1))/2;
 
     return 0;
 }
+
+
+
+// sum 1 to n
+
+/*
+
+Input: 4
+
+Output: 10
+
+
+*/
