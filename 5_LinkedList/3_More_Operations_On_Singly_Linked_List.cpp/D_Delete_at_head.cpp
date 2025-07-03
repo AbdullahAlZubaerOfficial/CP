@@ -36,6 +36,12 @@ void print_linked_list(Node* head){
     }
 }
 
+void delete_at_head(Node* &head){
+    Node* deleteNode = head;
+    head = head->next;
+    delete deleteNode;
+}
+
 int main(){
         
   Node* head = NULL;
@@ -50,6 +56,9 @@ int main(){
     }
     insert_at_tail(head,tail,val);
   }
+
+  delete_at_head(head);
+  delete_at_head(head);
   
   print_linked_list(head);
 
@@ -59,17 +68,10 @@ int main(){
 
 /*
 
-
 Input: 10 20 30 40 -1
 
 Output: 
-10
-20
 30
 40
-
-
-Time Complexity -> O(1)
-
 
 */

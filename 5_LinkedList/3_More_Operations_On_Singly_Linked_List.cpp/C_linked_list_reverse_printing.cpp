@@ -36,6 +36,19 @@ void print_linked_list(Node* head){
     }
 }
 
+
+void printReverse(Node* temp){
+
+
+    // base case
+    if(temp == NULL){
+        return ;
+    }
+    printReverse(temp->next);
+    cout << temp->val << endl;
+
+}
+
 int main(){
         
   Node* head = NULL;
@@ -51,7 +64,7 @@ int main(){
     insert_at_tail(head,tail,val);
   }
   
-  print_linked_list(head);
+  printReverse(head);
 
     return 0;
 }
@@ -59,17 +72,13 @@ int main(){
 
 /*
 
-
 Input: 10 20 30 40 -1
 
 Output: 
-10
-20
-30
 40
-
-
-Time Complexity -> O(1)
+30
+20
+10
 
 
 */

@@ -36,6 +36,28 @@ void print_linked_list(Node* head){
     }
 }
 
+void sort_linked_list(Node* head){
+
+    for(Node* i = head; i->next != NULL; i = i->next ){
+         for(Node* j = i->next; j != NULL; j = j->next ){
+
+            if(i->val > j->val){
+                swap(i->val, j->val);
+            }
+
+
+       }
+    }
+
+    // for(int i=0; i<n-1; i++){
+    //     for(int j=i+1; j<n; j++){
+    //         if(a[i]>a[j]){
+    //             swap(a[i],a[j]);
+    //         }
+    //     }
+    // }
+}
+
 int main(){
         
   Node* head = NULL;
@@ -50,26 +72,26 @@ int main(){
     }
     insert_at_tail(head,tail,val);
   }
+
+  sort_linked_list(head);
   
   print_linked_list(head);
 
     return 0;
 }
 
-
 /*
 
-
-Input: 10 20 30 40 -1
+Input: 20 30 10 50 40 -1
 
 Output: 
 10
 20
 30
 40
+50
 
 
-Time Complexity -> O(1)
-
+Time Complexity -> O(N*N)
 
 */

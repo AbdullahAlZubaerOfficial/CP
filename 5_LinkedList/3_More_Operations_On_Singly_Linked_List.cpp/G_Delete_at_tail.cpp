@@ -3,7 +3,6 @@ using namespace std;
 
 class Node
 {
-
     public: 
         int val;
         Node* next;
@@ -36,6 +35,21 @@ void print_linked_list(Node* head){
     }
 }
 
+void delete_at_tail(Node* head,Node* &tail, int idx){
+   
+    Node* temp = head;
+    for(int i=1; i<idx; i++){
+        temp = temp->next;
+    }
+    
+     Node* deleteNode = temp->next;
+     temp->next = temp->next->next;
+     delete deleteNode;  
+     tail = temp;                                   
+
+}
+
+
 int main(){
         
   Node* head = NULL;
@@ -50,8 +64,14 @@ int main(){
     }
     insert_at_tail(head,tail,val);
   }
+
+  cout << "Tail before delete: " << tail->val << endl;
+
+  delete_at_tail(head,tail,3);
   
   print_linked_list(head);
+
+  cout << "Tail after delete: " << tail->val << endl;
 
     return 0;
 }
@@ -59,17 +79,14 @@ int main(){
 
 /*
 
-
 Input: 10 20 30 40 -1
 
 Output: 
+Tail before delete: 40
 10
 20
 30
-40
-
-
-Time Complexity -> O(1)
+Tail after delete: 30
 
 
 */
