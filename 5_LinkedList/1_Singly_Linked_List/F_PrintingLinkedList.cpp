@@ -12,7 +12,7 @@ class Node
             this->val = val;
             this->next = NULL;
         }
-
+        
 };
 
 int main(){
@@ -36,7 +36,7 @@ int main(){
         temp = temp->next;
     }
     
-    
+
     return 0;
 }
 

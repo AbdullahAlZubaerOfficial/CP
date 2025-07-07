@@ -26,6 +26,7 @@ int main(){
 
     cout << a.val << endl;    // 10
     cout << (*a.next).val << endl;    // 20
+    // or,  a.next->val;
 
     cout << a.next->next->val << endl;  // 30
 

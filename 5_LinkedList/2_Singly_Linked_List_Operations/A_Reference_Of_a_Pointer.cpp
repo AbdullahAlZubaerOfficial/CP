@@ -9,8 +9,8 @@ void fun(int* p){
 
 int main(){
     
-     int x = 10;
-     int* p = &x;
+     int x = 10;     
+     int* p = &x;                  
      fun(p);
 
      // cout << "In Main: " << *p << endl;

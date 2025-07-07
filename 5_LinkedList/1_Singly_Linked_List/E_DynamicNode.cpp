@@ -29,6 +29,7 @@ int main(){
 
     cout << head->val << endl;   // 10
     cout << a->val << endl;    // 20
+    cout << b->val << endl; // 30
     
     return 0;
 }
