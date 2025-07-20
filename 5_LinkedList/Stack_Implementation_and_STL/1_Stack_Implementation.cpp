@@ -12,6 +12,7 @@ Stack:
 -> Higher Data Structure 
 
 
+Stack Built IN Functions: https://docs.google.com/document/d/1676YNr_Oi_Gylv94ClrpHYu-ac8P0aYQbO0wZw-N2Mw/edit?tab=t.0
 
 */
 
