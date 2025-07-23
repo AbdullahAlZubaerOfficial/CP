@@ -1,0 +1,1 @@
+{"name":"Local: C_UseStlCheck","url":"f:\\phitron\\5_LinkedList\\9_3_PracticeDay_Stack_and_Queue\\C_UseStlCheck.cpp","tests":[{"id":1753236840767,"input":"5\n10 20 30 40 50","output":"10 20 30 40 50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\5_LinkedList\\9_3_PracticeDay_Stack_and_Queue\\C_UseStlCheck.cpp","group":"local","local":true}
