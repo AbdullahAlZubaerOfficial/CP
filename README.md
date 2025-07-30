@@ -6,15 +6,9 @@
 
 
 <p align="center">
-  <a href="https://github.com/AbdullahAlZubaerOfficial/Coding-Sheet">
-    <img src="https://img.shields.io/github/stars/AbdullahAlZubaerOfficial/cp?style=social" alt="Stars">
-  </a>
-  <a href="https://github.com/AbdullahAlZubaerOfficial/Coding-Sheet/watchers">
-    <img src="https://img.shields.io/github/watchers/AbdullahAlZubaerOfficial/cp?style=social" alt="Watchers">
-  </a>
- 
+
+  <img src="https://komarev.com/ghpvc/?username=AbdullahAlZubaerOfficial&label=Repo+Views&color=brightgreen&style=flat" alt="Repo views" />
 </p>
----
 
 ## 📂 Overview
 
