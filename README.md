@@ -20,10 +20,12 @@ Ei repository-te apni paben:
 
 | Topic              | Language | Difficulty | Status |
 |-------------------|----------|------------|--------|
+| Basi C and C++         | C/C++     | Easy - Med | ✅     |
 | Arrays & Strings  | C++      | Easy - Med | ✅     |
-| Linked List        | C        | Medium     | ✅     |
+| Linked List        | C++        | Medium     | ✅     |
 | Binary Search      | C++      | Medium     | 🔄     |
 | Number Theory      | C/C++    | Medium     | ✅     |
+| Binary Tree        | C/C++    | Medium     | ✅     |
 | Graph Algorithms   | C++      | Hard       | 🔄     |
 | Dynamic Programming| C++      | Hard       | 🔄     |
 
@@ -58,4 +60,4 @@ Jara nijerao practice korte chao, tader jonnno ei repository khub helpful hobe. 
 
 ---
 
-<p align="center">Happy Coding 💻 | Stay Consistent 💪 | Keep Solving 🔥</p>
+<p align="center">Happy Coding  | Stay Consistent  | Keep Solving 🔥</p>
