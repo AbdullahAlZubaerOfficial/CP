@@ -4,6 +4,16 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00C1FF&center=true&vCenter=true&width=435&lines=Level+Up+Your+CP+Skills!;C%2C+C%2B%2B+Best+Practice+Sheets;Data+Structures+%7C+Algorithms;Math+Problems" alt="Typing SVG" />
 </p>
 
+
+<p align="center">
+  <a href="https://github.com/AbdullahAlZubaerOfficial/Coding-Sheet">
+    <img src="https://img.shields.io/github/stars/AbdullahAlZubaerOfficial/cp?style=social" alt="Stars">
+  </a>
+  <a href="https://github.com/AbdullahAlZubaerOfficial/Coding-Sheet/watchers">
+    <img src="https://img.shields.io/github/watchers/AbdullahAlZubaerOfficial/cp?style=social" alt="Watchers">
+  </a>
+ 
+</p>
 ---
 
 ## 📂 Overview
