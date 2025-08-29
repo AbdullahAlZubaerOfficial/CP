@@ -6,11 +6,11 @@ bool vis[1005];
 
 void bfs(int src){
 
-    queue<int>q;
+    queue<int>q;    // space complexity -> O(N)  or,   O(V)
     q.push(src);
     vis[src] = true;
-    
-    while (!q.empty())
+
+    while (!q.empty())     // time complexity -> O(N)   or O(V)  where V is the number of vertices and N is the node
     {
         // ber kore anbo
         int par = q.front();
@@ -20,7 +20,7 @@ void bfs(int src){
         cout << par << " ";
 
         // children gulo push
-        for(int child : adj_list[par]){
+        for(int child : adj_list[par]){     // time complexity -> O(E)    where,  E=edge
 
             if(vis[child]==false){
                 q.push(child);
@@ -69,5 +69,8 @@ Input:
 
 Output: 0 1 3 4 2 5 6 
 
+
+Time Complexity of bfs = O(N+E)  or,   O(V+E)
+Space Complexity of bfs = O(V)
 
 */
