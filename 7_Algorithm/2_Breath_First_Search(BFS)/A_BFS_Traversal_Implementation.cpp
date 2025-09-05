@@ -47,7 +47,7 @@ int main(){
 
      memset(vis,false,sizeof(vis));
      
-    bfs(0);
+    bfs(1);
     
 
     return 0;
