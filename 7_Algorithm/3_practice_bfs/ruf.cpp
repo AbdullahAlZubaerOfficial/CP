@@ -1,21 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int>adj_list[1005];
+vector<int> adj_list[1005];
 bool vis[1005];
 
 void bfs(int src){
-    queue<int>q;
+    queue<int> q;
     q.push(src);
     vis[src] = true;
 
-    while(!q.empty()){
-        // ber kore anbo
+    while (!q.empty())
+    {
         int par = q.front();
+        // cout << par << " ";
         q.pop();
-
-        // oi node ke niey kaj
-        cout << par << " ";
 
         for(int child: adj_list[par]){
             if(vis[child]==false){
@@ -23,26 +21,40 @@ void bfs(int src){
                 vis[child] = true;
             }
         }
-    }
-}
 
+    }
+    
+}
 
 int main(){
     
-    int n,e;
-    cin >> n >> e;
-
+   int n,e;
+   cin >> n >> e;
+   
    while (e--)
    {
-     int a,b;
-     cin >> a >> b;
-     adj_list[a].push_back(b);
-     adj_list[b].push_back(a);
+    int a,b;
+    cin >> a >> b;
+
+    adj_list[a].push_back(b);
+    adj_list[b].push_back(a);
+
+
    }
 
    memset(vis,false,sizeof(vis));
 
-   bfs(0);
+ 
+    
+   int src,dst;
+   cin >> src >> dst;
+  bfs(src);
+   if(vis[dst]){
+    cout << "YES";
+   }else{
+    cout << "NO";
+   }
+
 
 
     return 0;
