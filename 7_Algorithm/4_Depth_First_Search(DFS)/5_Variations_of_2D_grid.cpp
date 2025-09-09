@@ -2,8 +2,8 @@
 using namespace std;
 
 char grid[105][105];
-
 bool vis[105][105];
+int level[105][105];
 
 vector<pair<int, int>> d = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
@@ -27,6 +27,7 @@ void bfs(int si,int sj)
     queue<pair<int,int>> q;
     q.push({si,sj});
     vis[si][sj] = true;
+    level[si][sj] = 0;
 
     while(!q.empty()){
         pair<int,int> par = q.front();
@@ -35,14 +36,15 @@ void bfs(int si,int sj)
         int par_i = par.first;
         int par_j = par.second;
 
-        cout << par_i << " " << par_j << endl;
+        // cout << par_i << " " << par_j << endl;
 
         for(int i=0; i<4; i++){
             int ci = par_i + d[i].first;
             int cj = par_j + d[i].second;
-              if(valid(ci,cj) && vis[ci][cj]==false ){
+              if(valid(ci,cj) && vis[ci][cj]==false && grid[ci][cj]=='.'  ){
            q.push({ci,cj});
            vis[ci][cj] = true;
+           level[ci][cj] = level[par_i][par_j] + 1;
         }
 
         }
@@ -65,41 +67,37 @@ int main()
     }
     
 
-    int si, sj;
-    cin >> si >> sj;
+    int si, sj,di,dj;   // si = source i, sj = source j, di = distance i, dj= distance j
+    cin >> si >> sj >> di >> dj ;
 
     memset(vis, false, sizeof(vis));
+    memset(level, -1, sizeof(level));
 
     bfs(si, sj);
+
+    cout << level[di][dj] << endl;
 
     return 0;
 }
 
+
+
 /*
 
-Input:
+
+Input: 
 3 4
 ....
-....
-....
+.#..
+.#..
 1 2
-
-
-Output:
-1 2
-0 2
-2 2
-1 1
-1 3
-0 1
-0 3
-2 1
-2 3
-1 0
-0 0
 2 0
 
+Output: 
+5
 
-class Link: https://phitron.io/ph067/video/ph067-3_8-dfs-on-2d-grid-animated
+
+# diye rasta bondho kore dei...........
+more details in this image : https://i.ibb.co.com/TM951mxc/image.png
 
 */
