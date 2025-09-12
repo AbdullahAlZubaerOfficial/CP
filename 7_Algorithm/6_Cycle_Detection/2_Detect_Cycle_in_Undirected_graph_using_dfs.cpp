@@ -9,25 +9,23 @@ bool cycle;
 
 void dfs(int src)
 {
-  vis[src] = true;
-  for(int child : adj_list[src]){
+    vis[src] = true;
+    for (int child : adj_list[src])
+    {
 
-      if (vis[child] && parent[src] != child)
-            {
-                cycle = true;
-            }
+        if (vis[child] && parent[src] != child)
+        {
+            cycle = true;
+        }
 
-    if(!vis[child]){
+        if (!vis[child])
+        {
 
-        parent[child] = src;
+            parent[child] = src;
 
-        dfs(child);
-       
-
+            dfs(child);
+        }
     }
-  }
-
-
 }
 
 int main()
@@ -96,7 +94,7 @@ Sample Input 2:
 4 2
 
 
-Sample Output 2: 
+Sample Output 2:
 Cycle Detected
 
 
@@ -104,7 +102,7 @@ Sample Input 3:
 2 1
 1 0
 
-Sample Output 3: 
+Sample Output 3:
 No Cycle
 
 

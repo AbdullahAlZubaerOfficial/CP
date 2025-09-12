@@ -38,10 +38,7 @@
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [],
-  "C_Cpp_Runner.includeSearch": [
-    "*",
-    "**/*"
-  ],
+  "C_Cpp_Runner.includeSearch": ["*", "**/*"],
   "C_Cpp_Runner.excludeSearch": [
     "**/build",
     "**/build/**",
@@ -61,6 +58,7 @@
     "list": "cpp",
     "vector": "cpp",
     "array": "cpp",
-    "forward_list": "cpp"
+    "forward_list": "cpp",
+    "iostream": "cpp"
   }
 }
