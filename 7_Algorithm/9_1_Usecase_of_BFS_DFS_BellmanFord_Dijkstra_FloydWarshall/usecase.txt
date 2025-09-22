@@ -1,0 +1,55 @@
+🔹 DFS (Depth First Search):
+
+Complexity: O(V+E)
+কাজ: শুধু গ্রাফ/ট্রি traverse করা (path খুঁজতে, connectivity, cycle detection ইত্যাদি)।
+Shortest path বের করে না। 🚫
+
+
+🔹 BFS (Breadth First Search):
+
+Complexity: O(V+E)
+কাজ:
+Shortest distance / path বের করে 👉 কিন্তু সেটা Unweighted Graph-এর জন্য।
+সব edge-এর weight যদি 1 ধরা হয়, তখন BFS কাজ করবে।
+Source fix করতে হয়। 🎯
+
+🔹 Dijkstra’s Algorithm : 
+
+Complexity: O(E log V) (Priority Queue/Min-Heap দিয়ে)
+কাজ:
+Shortest distance / path বের করে Weighted Graph-এ।
+Negative weight allowed না ❌।
+Source fix করতে হয়। 🎯
+
+🔹 Bellman-Ford Algorithm : 
+
+Complexity: O(VE)
+কাজ:
+Shortest distance / path বের করে Weighted Graph-এ।
+Negative weight edge allow করে ✅।
+এমনকি negative cycle detect করতেও পারে। 🔄
+Source fix করতে হয়। 🎯
+
+🔹 Floyd-Warshall Algorithm : 
+
+Complexity: O(V³)
+কাজ:
+All Pairs Shortest Path বের করে। (মানে একসাথে সব source → সব destination)।
+Weighted Graph (Negative weight allowed, but negative cycle detect করতে হয় আলাদা ভাবে)।
+Source fix না থাকলেও হবে, কারণ multiple source কাজ করতে পারে। 🌍
+
+
+
+
+
+👉 এক লাইনে মনে রাখার টেকনিক:
+
+DFS → Traverse 😎
+
+BFS → Shortest path (Unweighted) 🛤️
+
+Dijkstra → Shortest path (Weighted, Positive) ⚡
+
+Bellman-Ford → Shortest path (Weighted, Negative allowed) ⚠️
+
+Floyd-Warshall → All-pairs shortest path (V³) 🌐

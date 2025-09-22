@@ -1,0 +1,11 @@
+Dynamic Programming (DP)
+
+Dynamic Programming holo ek technique, ja amra recursive solution ke optimize korte use kori. Recursive approach thik thake, 
+kintu complexity beshi hoye jai, karon same subproblem bar-bar solve korte hoy. DP er maddhome ei redundant computation avoid 
+kora jai ebong time complexity komano jai.
+
+DP er dui dhoroner approach ache:
+Top-down (Memoization) – Ei method e recursion use kore, subproblem er result ekbar compute kore store kora hoy future use er jonno.
+Bottom-up (Tabulation) – Ei method e loop use kore, choto subproblem theke shuru kore step by step boro problem solve kora hoy.
+
+Important: DP kono algorithm na, eta ek optimization technique, ja recursive solution ke efficient kore.
