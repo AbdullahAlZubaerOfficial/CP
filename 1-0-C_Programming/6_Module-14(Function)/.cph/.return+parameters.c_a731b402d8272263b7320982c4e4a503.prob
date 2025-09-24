@@ -1,1 +1,0 @@
-{"name":"Local: return+parameters","url":"f:\\phitron\\Module-14(Function)\\return+parameters.c","tests":[{"id":1746374450806,"input":"10 40","output":"50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\Module-14(Function)\\return+parameters.c","group":"local","local":true}

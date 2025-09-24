@@ -1,1 +1,0 @@
-{"name":"Local: squareMatrix6","url":"f:\\phitron\\2D_Array\\squareMatrix6.c","tests":[{"id":1747893866613,"input":"3 3\n1 4 5\n2 5 6\n7 8 9","output":"yes square matrix"},{"id":1747893881408,"input":"1 4\n1 4 5 8","output":"no square matrix"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\2D_Array\\squareMatrix6.c","group":"local","local":true}

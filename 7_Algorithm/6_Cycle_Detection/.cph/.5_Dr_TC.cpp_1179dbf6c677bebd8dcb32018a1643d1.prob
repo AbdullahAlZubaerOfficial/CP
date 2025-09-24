@@ -1,1 +1,0 @@
-{"name":"Local: 5_Dr_TC","url":"f:\\phitron\\7_Algorithm\\6_Cycle_Detection\\5_Dr_TC.cpp","tests":[{"id":1757514795005,"input":"5\n3\n101\n1\n1\n5\n00000\n2\n11\n3\n010","output":"5\n0\n5\n2\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\7_Algorithm\\6_Cycle_Detection\\5_Dr_TC.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: A_Digit","url":"f:\\phitron\\MathBasicForProgramming\\A_Digit.c","tests":[{"id":1749390806385,"input":"7789","output":"4"},{"id":1749390817890,"input":"32","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\MathBasicForProgramming\\A_Digit.c","group":"local","local":true}

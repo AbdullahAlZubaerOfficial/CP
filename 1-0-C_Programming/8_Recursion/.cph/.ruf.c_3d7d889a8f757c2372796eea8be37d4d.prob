@@ -1,1 +1,0 @@
-{"name":"Local: ruf","url":"f:\\phitron\\Recursion\\ruf.c","tests":[{"id":1747811753834,"input":"4","output":"*\n**\n***\n****"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\Recursion\\ruf.c","group":"local","local":true}

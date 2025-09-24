@@ -1,1 +1,0 @@
-{"name":"Local: inputArrayNtime","url":"f:\\phitron\\array\\inputArrayNtime.c","tests":[{"id":1745906675593,"input":"5\n10 20 30 40 50","output":"10 20 30 40 50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\array\\inputArrayNtime.c","group":"local","local":true}

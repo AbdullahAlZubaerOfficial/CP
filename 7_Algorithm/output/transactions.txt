@@ -1,5 +1,0 @@
-101,jewel,Deposit,4000
-101,jewel,Withdraw,2000
-201,moinul,Deposit,5000
-201,moinul,Withdraw,2000
-201,moinul,Deposit,4000

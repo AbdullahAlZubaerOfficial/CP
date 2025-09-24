@@ -1,1 +1,0 @@
-{"name":"Local: specific_column4","url":"f:\\phitron\\2D_Array\\specific_column4.c","tests":[{"id":1747893408797,"input":"3 3\n1 4 5\n2 5 6\n7 8 9\n1","output":"4\n5\n8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\2D_Array\\specific_column4.c","group":"local","local":true}

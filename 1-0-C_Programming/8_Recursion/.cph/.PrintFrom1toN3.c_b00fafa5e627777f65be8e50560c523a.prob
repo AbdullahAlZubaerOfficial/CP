@@ -1,1 +1,0 @@
-{"name":"Local: PrintFrom1toN3","url":"f:\\phitron\\Recursion\\PrintFrom1toN3.c","tests":[{"id":1747811716236,"input":"","output":"1\n2\n3\n4\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\Recursion\\PrintFrom1toN3.c","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: ruf","url":"f:\\phitron\\2D_Array\\ruf.c","tests":[{"id":1747892735464,"input":"3\n121\n39\n123456","output":"1 2 1\n3 9\n1 2 3 4 5 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\2D_Array\\ruf.c","group":"local","local":true}

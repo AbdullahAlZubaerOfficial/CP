@@ -1,1 +1,0 @@
-{"name":"Local: ruf","url":"f:\\phitron\\Phitron-CodeFest-02\\ruf.c","tests":[{"id":1748054138008,"input":"6 10\n1 3 1 6 4 8","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\phitron\\Phitron-CodeFest-02\\ruf.c","group":"local","local":true}
